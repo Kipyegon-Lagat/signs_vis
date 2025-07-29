@@ -5,7 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'v0 App',
-  description: 'Created with ',
+  description: 'Created with psi',
   generator: 'v0.dev',
 }
 
