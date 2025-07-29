@@ -14,6 +14,7 @@ An interactive web application that uses computer vision to detect sign language
 
 ## How It Works
 
+
 ### Frontend (React/Next.js)
 - Captures live video from user's webcam
 - Sends video frames to the backend for analysis
