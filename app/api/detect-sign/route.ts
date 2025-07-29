@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(mockDetection)
   } catch (error) {
     console.error("Error processing image:", error)
-    return NextResponse.json({ error: "Processing failed" }, { status: 500 })
+    return NextResponse.json({ error: "Processingfailed" }, { status: 500 })
   }
 }
 
