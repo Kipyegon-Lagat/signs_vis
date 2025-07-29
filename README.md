@@ -34,46 +34,6 @@ An interactive web application that uses computer vision to detect sign language
 - Python 3.8+
 - Webcam access
 
-### Quick Start
-
-#### Option 1: Automatic Setup (Recommended)
-\`\`\`bash
-# Install Python dependencies
-python scripts/install_dependencies.py
-
-# Start the backend server
-python scripts/sign_detection_server.py
-
-# In another terminal, start the frontend
-npm run dev
-\`\`\`
-
-#### Option 2: Manual Installation
-\`\`\`bash
-# Install Python packages
-pip install fastapi uvicorn opencv-python mediapipe pillow numpy python-multipart
-
-# Start backend
-python scripts/sign_detection_server.py
-
-# Start frontend
-npm run dev
-\`\`\`
-
-#### Option 3: Platform-specific Scripts
-
-**Windows:**
-\`\`\`cmd
-scripts\install_windows.bat
-python scripts\sign_detection_server.py
-\`\`\`
-
-**Mac/Linux:**
-\`\`\`bash
-chmod +x scripts/install_unix.sh
-./scripts/install_unix.sh
-python3 scripts/sign_detection_server.py
-\`\`\`
 
 ### Troubleshooting Installation
 
