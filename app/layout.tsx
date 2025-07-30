@@ -6,7 +6,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Sign Vis',
   description: 'Created with byte psi',
-  generator: '',
+  generator: 'v0.dev',
 }
 
 export default function RootLayout({
