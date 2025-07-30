@@ -5,7 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Sign Vis',
-  description: 'Created with psi',
+  description: 'Created with byte psi',
   generator: 'v0.dev',
 }
 
