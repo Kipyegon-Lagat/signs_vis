@@ -1,5 +1,3 @@
-
-
 export const metadata: Metadata = {
   title: 'Sign Vis',
   description: 'Created with byte psi',
