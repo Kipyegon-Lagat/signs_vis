@@ -1,5 +1,10 @@
 "use client"
 
+import { useState, useRef, useEffect } from "react"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Camera, CameraOff, Volume2, VolumeX } from 'lucide-react'
 
 export default function SignLanguageTranslator() {
   const videoRef = useRef<HTMLVideoElement>(null)
